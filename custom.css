@@ -1,0 +1,19 @@
+.header{
+    background-color: aqua;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 32px;
+}
+.find{
+    border: 1px solid;
+    height: 44px;
+    width: 492px;
+
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
