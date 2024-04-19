@@ -1,3 +1,6 @@
+.btn {
+  border: none;
+}
 .btn .btn-s {
   padding: 5px 16px;
 }
@@ -6,4 +9,70 @@
 }
 .btn .btn-l {
   padding: 16px 24px;
+}
+
+.header {
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 32px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+
+.find {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 70px;
+  width: 492px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  border: none;
+  background-color: #fff;
+}
+
+.user-icon {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+}
+
+.input {
+  border: none;
+  width: 80%;
+}
+
+.action {
+  display: flex;
+}
+
+.action-content {
+  padding: 10px 10px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 60px;
+  color: #3563e9;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-content {
+  padding: 24px 30px;
 }/*# sourceMappingURL=styles.css.map */
