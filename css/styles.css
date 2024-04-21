@@ -11,6 +11,23 @@
   padding: 16px 24px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-content {
+  padding: 24px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   height: 124px;
   display: flex;
@@ -62,17 +79,4 @@
   text-decoration: none;
   font-size: 60px;
   color: #3563e9;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-right {
-  display: flex;
-}
-
-.footer-content {
-  padding: 24px 30px;
 }/*# sourceMappingURL=styles.css.map */

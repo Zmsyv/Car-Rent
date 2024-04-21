@@ -44,16 +44,7 @@
   font-size: 60px;
   color: $primary-500;
 }
-.footer{
-  display: flex;
-  justify-content: space-between;
+
+@media screen and (max-width: 768px) {
+  
 }
-.footer-right{
-  display: flex; 
-}
-.footer-content{
-  padding: 24px 30px;
-}
-// a{
-//   text-decoration: none;
-// }
