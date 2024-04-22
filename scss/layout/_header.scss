@@ -1,25 +1,30 @@
 .header {
   height: 124px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  
   padding-left: 60px;
   padding-right: 32px;
   border: 1px solid rgba(195, 212, 233, 0.4);
+  gap: 32px;
 }
-.find {
+.search {
   border: 1px solid rgba(195, 212, 233, 0.4);
   border-radius: 70px;
   width: 492px;
   height: 44px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-right: auto;
 }
 .icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   border: none;
   background-color: $white;
+  
 }
-.user-icon{
+.user-icon {
   height: 44px;
   width: 44px;
   border-radius: 50px;
@@ -28,9 +33,12 @@
 .input {
   border: none;
   width: 80%;
+  outline: none;
 }
 .action{
   display: flex;
+  gap: 20px;
+  
 }
 .action-content{
   padding: 10px 10px;
@@ -41,10 +49,87 @@
 }
 .logo{
   text-decoration: none;
-  font-size: 60px;
+  font-size: 32px;
   color: $primary-500;
 }
-
-@media screen and (max-width: 768px) {
-  
+.a{
+  text-decoration: none;
+  color: black;
+  :hover{
+    color: red;
+  }
 }
+.header-top{
+  display: none;
+}
+.header-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding-top: 35px;
+  gap: 32px;
+}
+.mb-logo{
+  display: none;
+}
+.mb-search{
+  display: none;
+}
+.mb-bottom{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+  .header-bottom{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .header-bottom{
+    .action{
+      display: none;
+    }
+  }
+  .mb-menu{
+    border: none;
+    background-color: $white;
+  }
+  .mb-logo{
+    display: flex;
+  }
+  .mb-bottom{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 24px;
+  }
+  .mb-search{
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 10px;
+  height: 44px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .mb-setting{
+    display: flex;
+    border: 1px solid  rgba(195, 212, 233, 0.4);
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    .mb-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 15px;
+    }
+  }
+}
+
