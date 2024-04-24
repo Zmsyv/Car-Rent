@@ -14,8 +14,8 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 60px;
+  padding-left: 60px;
+  padding-right: 32px;
 }
 
 .footer-right {
@@ -28,8 +28,8 @@
   color: #90a3bf;
 }
 
-h1 {
-  font-size: 24px;
+.footer-left h1 {
+  font-size: 32px;
   color: #3563e9;
 }
 
@@ -42,8 +42,8 @@ p {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 60px;
+  padding-left: 60px;
+  padding-right: 32px;
 }
 .copyright .copyright-left p {
   color: black;
