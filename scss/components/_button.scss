@@ -1,12 +1,24 @@
 .btn {
-    border: none;
-    .btn-s{
-        padding: 5px 16px;
-    }
-    .btn-m{
-        padding: 9px 16px;
-    }
-    .btn-l{
-        padding: 16px 24px;
-    }
+  background-color: transparent;
+  border: none;
+  &.btn-s {
+    padding: 5px 16px;
+  }
+  &.btn-m {
+    padding: 9px 16px;
+  }
+  &.btn-l {
+    padding: 16px 24px;
+  }
+  &.btn-primary {
+    background-color: $primary-500;
+    color: $white;
+  }
+  &.btn-secondary{
+    background-color: $white;
+    border-radius: $br-s;
+  }
+  &.btn-minimal{
+
+  }
 }
