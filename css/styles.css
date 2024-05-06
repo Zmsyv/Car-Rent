@@ -19,6 +19,10 @@
   background-color: #fff;
   border-radius: 4px;
 }
+.footer {
+  padding-top: 80px;
+}
+
 .sub-footer {
   display: flex;
   justify-content: space-between;
@@ -31,10 +35,10 @@
   display: flex;
   gap: 32px;
 }
-
-.footer-content a {
+.footer-right .footer-content a {
   text-decoration: none;
   color: #90a3bf;
+  gap: 15px;
 }
 
 .footer-left h1 {
@@ -47,7 +51,7 @@ p {
 }
 
 .copyright {
-  padding-top: 20px;
+  padding-top: 30px;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -222,6 +226,7 @@ p {
   }
 }
 .main {
+  background-color: #e0e9f4;
   display: flex;
   padding: 32px 64px;
   gap: 32px;
@@ -230,11 +235,13 @@ p {
   width: 50%;
   height: 360px;
   background-color: #54a6ff;
+  border-radius: 10px;
 }
 .main .main-content-right {
   width: 50%;
   height: 360px;
   background-color: #3563e9;
+  border-radius: 10px;
 }
 .main .main-title {
   padding-left: 24px;
@@ -296,10 +303,10 @@ p {
 }
 .cart {
   padding: 0px 24px;
-  border: 1px solid black;
   width: 304px;
-  height: 388px;
-  border-radius: 4px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .cart .cart-header {
   display: flex;
@@ -308,6 +315,7 @@ p {
 .cart .cart-header .cart-p {
   color: black;
   font-size: 20px;
+  padding-top: 24px;
 }
 .cart .cart-header .cart-title-span {
   color: #90a3bf;
@@ -381,4 +389,49 @@ p {
   color: #fff;
   font-size: 16px;
   background-color: #3563e9;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    height: 100%;
+    width: 100%;
+  }
+  .cart .mb-cart-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+  }
+  .cart .mb-cart-body .cart-body {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+}
+.popular {
+  background-color: #e0e9f4;
+  padding: 20px 64px;
+}
+.popular .popular-head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.popular .popular-head h2 {
+  color: #90a3bf;
+  font-size: 16px;
+}
+.popular .popular-head a {
+  text-decoration: none;
+  color: #3563e9;
+  font-size: 16px;
+}
+.popular .popular-car {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .popular-car {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */

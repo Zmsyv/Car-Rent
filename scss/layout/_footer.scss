@@ -1,3 +1,6 @@
+.footer{padding-top: 80px;
+
+}
 .sub-footer {
   display: flex;
   justify-content: space-between;
@@ -8,12 +11,14 @@
 .footer-right {
   display: flex;
   gap: 32px;
+  .footer-content {
+    a {
+      text-decoration: none;
+      color: $secondary-300;
+      gap: 15px;
+    }
 }
-.footer-content {
-  a {
-    text-decoration: none;
-    color: $secondary-300;
-  }
+
 }
 .footer-left {
   h1 {
@@ -25,7 +30,7 @@ p {
   color: $secondary-300;
 }
 .copyright {
-  padding-top: 20px;
+  padding-top: 30px;
   display: flex;
   text-align: center;
   justify-content: space-between;

@@ -1,15 +1,16 @@
 .cart {
   padding: 0px 24px;
-  border: 1px solid black;
   width: 304px;
-  height: 388px;
-  border-radius: 4px;
+  height: 400px;
+  background-color: $white;
+  border-radius: 10px;
   .cart-header {
     display: flex;
     justify-content: space-between;
     .cart-p {
       color: black;
       font-size: 20px;
+      padding-top: 24px;
     }
     .cart-title-span {
       color: $secondary-300;
@@ -17,9 +18,9 @@
     .cart-button {
       background: none;
       border: none;
-      .hover-icon{
+      .hover-icon {
         color: black;
-        :hover{
+        :hover {
           color: red;
         }
       }
@@ -83,6 +84,21 @@
       color: $white;
       font-size: 16px;
       background-color: $primary-500;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cart {
+    height: 100%;
+    width: 100%;
+    .mb-cart-body {
+      display: flex;
+      justify-content: space-between;
+      gap: 80px;
+      .cart-body {
+        justify-content: start;
+        flex-wrap: wrap;
+      }
     }
   }
 }
