@@ -1,7 +1,7 @@
 .cart {
   padding: 0px 24px;
   width: 304px;
-  height: 400px;
+  height: 450px;
   background-color: $white;
   border-radius: 10px;
   .cart-header {
@@ -64,6 +64,8 @@
     padding: 24px 0px;
     .cart-priceday {
       display: flex;
+      justify-content: center;
+      align-items: center;
       .price {
         font-size: 20px;
         color: black;

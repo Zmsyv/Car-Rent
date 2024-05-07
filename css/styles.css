@@ -304,7 +304,7 @@ p {
 .cart {
   padding: 0px 24px;
   width: 304px;
-  height: 400px;
+  height: 450px;
   background-color: #fff;
   border-radius: 10px;
 }
@@ -369,6 +369,8 @@ p {
 }
 .cart .cart-footer .cart-priceday {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cart .cart-footer .cart-priceday .price {
   font-size: 20px;
@@ -430,8 +432,68 @@ p {
   gap: 32px;
 }
 
+.recommended {
+  background-color: #e0e9f4;
+  padding: 20px 64px;
+}
+.recommended .recommended-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.recommended .recommended-head h2 {
+  color: #90a3bf;
+  font-size: 16px;
+}
+.recommended .recommended-head a {
+  text-decoration: none;
+  color: #3563e9;
+  font-size: 16px;
+}
+.recommended .recommended-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.recommended .recommended-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding-top: 32px;
+}
+
+.wiew {
+  background-color: #e0e9f4;
+  padding: 20px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wiew .wiew-button {
+  border: none;
+  border-radius: 4px;
+  width: 116px;
+  height: 44px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #3563e9;
+}
+.wiew h4 {
+  color: #90a3bf;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 768px) {
   .popular-car {
     flex-wrap: wrap;
+  }
+  .recommended-head {
+    flex-wrap: wrap;
+  }
+  .recommended .recommended-top {
+    flex-wrap: wrap;
+  }
+  .recommended .recommended-bottom {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

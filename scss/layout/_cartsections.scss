@@ -22,8 +22,69 @@
     gap: 32px;
   }
 }
+.recommended{
+  background-color: $secondary-100;
+  padding: 20px 64px;
+  .recommended-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+  
+    h2 {
+      color: $secondary-300;
+      font-size: 16px;
+    }
+    a {
+      text-decoration: none;
+      color: $primary-500;
+      font-size: 16px;
+    }
+  }
+  .recommended-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .recommended-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-top: 32px;
+  }
+}
+.wiew{
+  background-color: $secondary-100;
+  padding: 20px 64px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  .wiew-button{
+    border: none;
+    border-radius: 4px;
+    width: 116px;
+    height: 44px;
+    color: $white;
+    font-size: 16px;
+    background-color: $primary-500;
+  }
+  h4{
+    color: $secondary-300;
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 768px) {
   .popular-car {
     flex-wrap: wrap;
+  }
+  .recommended-head{
+    flex-wrap: wrap;
+  }
+  .recommended{
+    .recommended-top{
+      flex-wrap: wrap;
+    }
+    .recommended-bottom{
+      display: none;
+    }
   }
 }
